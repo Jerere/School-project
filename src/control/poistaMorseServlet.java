@@ -23,7 +23,6 @@ public class poistaMorseServlet extends HttpServlet {
 	
 		try {
 			String idStr = request.getParameter("morse.id");
-			System.out.println(idStr);
 			int morseid = new Integer(idStr);
 			//LUODAAN MORSEDAO
 			morseDAO morsedao = new morseDAO();

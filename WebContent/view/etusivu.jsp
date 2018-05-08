@@ -55,6 +55,8 @@ function josTyhjaEiTallenna() {
 		
 		<br> <br> 
 		<a style="text-decoration: none; color: white" href="http://localhost:8080/Harjoitustyo_Morse/lista">Tallennetut viestit</a>
+		<br>
+		<br>
 	</form>
 </div>
 </body>
