@@ -1,0 +1,1 @@
+CREATE TABLE morsekanta (id int auto_increment not null, nimimerkki varchar(15), teksti varchar(50), morsekoodi varchar(300), PRIMARY KEY(id))engine=InnoDB;
