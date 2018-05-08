@@ -23,13 +23,18 @@ function vainKirjaimia(input) {
     input.value = input.value.replace(regex, "");
 	}
 	
+	
 function josTyhjaEiTallenna() {
 	var a = document.forms["tallenna"]["tulos"].value;
+	var b = document.forms["tallenna"]["nimimerkki"].value;
 	if(a==null || a=="") {
-	alert("Lis‰‰ muunnettava teksti / Muunna teksti");
-	} else {
-	document.getElementById("tallenna").action = "lisaaMorseServlet";
-	}	
+	alert("Lis‰‰ muunnettava teksti / Muunna teksti!"); }
+	
+	else if (b.indexOf(" ") == 0) {
+	alert("Anna kunnollinen nimimerkki!"); }
+	
+	else {
+	document.getElementById("tallenna").action = "lisaaMorseServlet"; }	
 } 
 </script>
 <div align="center">
